@@ -16,31 +16,31 @@ PostgreSQL 15+
 🔒 Multi-Role Support
 Buyers can:
 
-Browse available events by date, location, or type
+  -> Browse available events by date, location, or type
 
-View seat availability in real-time
+     View seat availability in real-time
 
-Book, cancel, or modify tickets
+  ->Book, cancel, or modify tickets
 
-View their personal booking history and payment records
+  ->View their personal booking history and payment records
 
 Organizers can:
 
-Create and manage events (e.g., concerts, movies)
+ ->Create and manage events (e.g., concerts, movies)
 
-Assign venues and seat layouts
+ ->Assign venues and seat layouts
 
-View bookings and seat occupancy
+ ->View bookings and seat occupancy
 
-Track event-wise earnings
+ ->Track event-wise earnings
 
 Admins can:
 
-Manage users and permissions
+ ->Manage users and permissions
 
-Generate system-wide reports
+ ->Generate system-wide reports
 
-Monitor total revenue, popular events, and active venues
+ ->Monitor total revenue, popular events, and active venues
 
 Audit organizer performance
 
@@ -60,33 +60,33 @@ Queries provided for both operational tasks and analytics:
 📐 Normalization & Design
 ✅ All relations are in Boyce-Codd Normal Form (BCNF) ensuring:
 
-No data redundancy
+ ->No data redundancy
 
-Referential integrity
+ ->Referential integrity
 
-Improved update and query performance
+ ->Improved update and query performance
 
-Proper use of foreign keys, primary keys, and cascading constraints ensures data consistency across all operations.
+ ->Proper use of foreign keys, primary keys, and cascading constraints ensures data consistency across all operations.
 
 🏟️ Event & Venue Management
 Detailed schema for managing:
 
-Events (with category, description, date/time)
+ ->Events (with category, description, date/time)
 
-Venues (location, capacity, seating layout)
+ ->Venues (location, capacity, seating layout)
 
-Seats (individual seat metadata)
+ ->Seats (individual seat metadata)
 
-Schedules (event-specific time slots at a venue)
+ ->Schedules (event-specific time slots at a venue)
 
 💳 Ticketing & Orders
 Each booking stores:
 
-Seat-specific ticket details
+ ->Seat-specific ticket details
 
-Order ID, user ID, event ID
+ ->Order ID, user ID, event ID
 
-Payment status and transaction metadata
+ ->Payment status and transaction metadata
 
-Tracks cancellations and seat re-availability
+ ->Tracks cancellations and seat re-availability
 
